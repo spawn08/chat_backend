@@ -64,7 +64,7 @@ class EmbeddingIntentClassifier(Component):
         # linearly increased for each epoch
         "batch_size": [64, 256],
         # number of epochs
-        "epochs": 100,
+        "epochs": 70,
 
         # embedding parameters
         # dimension size of embedding vectors

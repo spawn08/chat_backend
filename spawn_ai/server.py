@@ -420,12 +420,16 @@ class RasaNLU(object):
         print(body)
         body['timestamp']= strftime("%Y-%m-%dT%H:%M:%SZ", gmtime())
         title = body.get('title')
+        intent = body.get('intent')
         print(title)
         resp = {}
         if body is not None and title is not None:
             es.index('spawnai', doc_type='doc', id=body.get('title'), body=body)
             es.index('spawnai',doc_type='wiki', body = body)
             return simplejson.dumps({'msg': 'success', 'status': 'true'})
+        elif intent is not None:
+            es.index('spawnai',doc_type='intent', body = body)
+            return simplejson.dumps({'msg': 'success', 'status': 'true'}) 
         else:
             return simplejson.dumps({'msg': 'query cannot be empty', 'status': 'false'})
         return simplejson.dumps({'msg': 'Error processing request', 'status': 'false'})

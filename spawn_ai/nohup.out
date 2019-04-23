@@ -1,111 +1,177 @@
-2019-04-23 08:48:15+0000 [-] Log opened.
-2019-04-23 08:48:15+0000 [-] Site starting on 8000
-2019-04-23 08:48:15+0000 [-] Starting factory <twisted.web.server.Site object at 0x7f432a44b4e0>
-2019-04-23 08:48:24.970425: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2019-04-23 08:48:24.979794: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1799995000 Hz
-2019-04-23 08:48:24.980411: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x1163f10 executing computations on platform Host. Devices:
-2019-04-23 08:48:24.980456: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
-2019-04-23 08:48:25+0000 [-] 2019-04-23 08:48:25 WARNING  tensorflow  - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
-2019-04-23 08:48:25+0000 [-] Instructions for updating:
-2019-04-23 08:48:25+0000 [-] Use standard file APIs to check for files with this prefix.
-2019-04-23 08:48:25+0000 [-] 49.33.192.39 - - [23/Apr/2019:08:48:25 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.1" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:41+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:40 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:42+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:42 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:43+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:43 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:43 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:45+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:44 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:45+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:45 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:46+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:46 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:47+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:46 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:48+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:47 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:48+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:48 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:50+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:50 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:51+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:51 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:52+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:52 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:52 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:53 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:54 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:55+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:55 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:55 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:57+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:56 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:57+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:57 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:58+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:57 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:48:59+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:58 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:49:00+0000 [-] 142.93.214.249 - - [23/Apr/2019:08:48:59 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 08:49:25+0000 [-] Timing out client: IPv4Address(TCP, '49.33.192.39', 22527)
-/usr/lib/python3.6/multiprocessing/semaphore_tracker.py:143: UserWarning: semaphore_tracker: There appear to be 5 leaked semaphores to clean up at shutdown
-  len(cache))
-2019-04-23 09:17:12+0000 [-] Log opened.
-2019-04-23 09:17:12+0000 [-] Site starting on 8000
-2019-04-23 09:17:12+0000 [-] Starting factory <twisted.web.server.Site object at 0x7fb30509b630>
-2019-04-23 09:17:15+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:15+0000 [-] Test
-2019-04-23 09:17:15+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:15 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:18+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:18+0000 [-] Test
-2019-04-23 09:17:18+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:18 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:19+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:19+0000 [-] Test
-2019-04-23 09:17:19+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:19 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:20+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:20+0000 [-] Test
-2019-04-23 09:17:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:20 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:21+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:21+0000 [-] Test
-2019-04-23 09:17:21+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:21 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:22+0000 [-] {'intent': {'name': 'bot_skills', 'confidence': 0.6722092628479004}, 'entities': [], 'text': 'skills you have', 'project': 'spawn_wiki', 'model': 'spawn', 'title': 'Test'}
-2019-04-23 09:17:22+0000 [-] Test
-2019-04-23 09:17:22+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:22 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:25.524219: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2019-04-23 09:17:25.531482: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1799995000 Hz
-2019-04-23 09:17:25.531958: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x1f5d5e0 executing computations on platform Host. Devices:
-2019-04-23 09:17:25.531992: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
-2019-04-23 09:17:25+0000 [-] 2019-04-23 09:17:25 WARNING  tensorflow  - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
-2019-04-23 09:17:25+0000 [-] Instructions for updating:
-2019-04-23 09:17:25+0000 [-] Use standard file APIs to check for files with this prefix.
-2019-04-23 09:17:26+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:26 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:27+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:27 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:28+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:28 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:29+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:28 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:29+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:29 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:30+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:30 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:31+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:31 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:32+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:32 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:36+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:36 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:37+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:37 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:40+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:40 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:41+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:41 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:42+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:42 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:43+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:43 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:43 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:44 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:48+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:47 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:48+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:48 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:49+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:48 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:49+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:49 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:50+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:50 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:50+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:50 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:51+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:51 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:52+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:51 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:52+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:52 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:53 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:53 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:54 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:54 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:55+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:55 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:55+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:55 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:17:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:17:56 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:29+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:28 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:30+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:30 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:31+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:31 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:32+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:31 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:33+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:32 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:35+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:34 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:35+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:35 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:37+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:36 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:38+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:37 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:39+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:38 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:40+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:39 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:41+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:40 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:44 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
-2019-04-23 09:23:45+0000 [-] 142.93.214.249 - - [23/Apr/2019:09:23:45 +0000] "GET /api/classify?q=skills%20you%20have&project=spawn_wiki&model=spawn HTTP/1.0" 200 178 "-" "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:41:47+0000 [-] Log opened.
+2019-04-23 17:41:47+0000 [-] Site starting on 8000
+2019-04-23 17:41:47+0000 [-] Starting factory <twisted.web.server.Site object at 0x7f3e4b70d7b8>
+2019-04-23 17:41:50.897243: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-04-23 17:41:50.903094: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 1799995000 Hz
+2019-04-23 17:41:50.903444: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x18ca5e0 executing computations on platform Host. Devices:
+2019-04-23 17:41:50.903486: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-04-23 17:41:51+0000 [-] 2019-04-23 17:41:51 WARNING  tensorflow  - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+2019-04-23 17:41:51+0000 [-] Instructions for updating:
+2019-04-23 17:41:51+0000 [-] Use standard file APIs to check for files with this prefix.
+2019-04-23 17:41:51+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:41:51 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=can%20please%20keep%20your%20fucking%20mouth%20shut HTTP/1.0" 200 202 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:41:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:41:53 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=can%20please%20keep%20your%20fucking%20mouth%20shut HTTP/1.0" 200 202 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:41:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:41:54 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=can%20please%20keep%20your%20fucking%20mouth%20shut HTTP/1.0" 200 202 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:01+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:01 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=keep%20your%20fucking%20mouth%20shut HTTP/1.0" 200 191 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:11+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:11 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:14+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:14 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:14+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:14 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:19+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:19 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:19 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:19 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:20 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:20 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=shut%20the%20fucking%20up HTTP/1.0" 200 182 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+2019-04-23 17:42:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:55 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=can%20you%20tell%20me%20about%20Barack%20Obama HTTP/1.0" 200 197 "-" "okhttp/3.10.0"
+2019-04-23 17:42:56+0000 [-] {'entities': [], 'intent': {'confidence': 0.7053323984146118, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'can you tell me about Barack Obama'}
+2019-04-23 17:42:56+0000 [-] None
+2019-04-23 17:42:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:56 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:42:58+0000 [-] {'content_urls': {'mobile': {'page': 'https://en.m.wikipedia.org/wiki/Barack_Obama'}}, 'description': '44th president of the United States', 'displaytitle': 'Barack Obama', 'extract': 'Barack Hussein Obama II is an American attorney and politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American to be elected to the presidency. He previously served as a U.S. senator from Illinois from 2005 to 2008.', 'lang': 'en', 'thumbnail': {'height': '320', 'source': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg', 'width': '256'}, 'title': 'Barack Obama', 'type': 'standard'}
+2019-04-23 17:42:58+0000 [-] Barack Obama
+2019-04-23 17:42:58+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:42:57 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:43:13+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:13 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 17:43:14+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 17:43:14+0000 [-] None
+2019-04-23 17:43:14+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:13 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:43:21+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:21 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=I%20love%20you HTTP/1.0" 200 171 "-" "okhttp/3.10.0"
+2019-04-23 17:43:21+0000 [-] {'entities': [], 'intent': {'confidence': 0.9336844086647034, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'I love you'}
+2019-04-23 17:43:21+0000 [-] None
+2019-04-23 17:43:21+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:21 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:43:30+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:29 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=tell%20me%20about%20Mumbai HTTP/1.0" 200 182 "-" "okhttp/3.10.0"
+2019-04-23 17:43:30+0000 [-] {'entities': [], 'intent': {'confidence': 0.576561689376831, 'name': 'bot_quotes'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'tell me about Mumbai'}
+2019-04-23 17:43:30+0000 [-] None
+2019-04-23 17:43:30+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:30 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:43:32+0000 [-] {'content_urls': {'mobile': {'page': 'https://en.m.wikipedia.org/wiki/Mumbai'}}, 'description': 'Megacity in Maharashtra, India', 'displaytitle': 'Mumbai', 'extract': "Mumbai is the capital city of the Indian state of Maharashtra. As of 2011 it is the most populous city in India with an estimated city proper population of 12.4\xa0million. The larger Mumbai Metropolitan Region is the second most populous metropolitan area in India, with a population of 21.3\xa0million as of 2016. Mumbai lies on the Konkan coast on the west coast of India and has a deep natural harbour. In 2008, Mumbai was named an alpha world city. It is also the wealthiest city in India, and has the highest number of millionaires and billionaires among all cities in India. Mumbai is home to three UNESCO World Heritage Sites: the Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus, and the city's distinctive ensemble of Victorian and Art Deco buildings.", 'lang': 'en', 'thumbnail': {'height': '180', 'source': 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_10_skyline_of_Lotus_Colony.jpg/320px-Mumbai_03-2016_10_skyline_of_Lotus_Colony.jpg', 'width': '320'}, 'title': 'Mumbai', 'type': 'standard'}
+2019-04-23 17:43:32+0000 [-] Mumbai
+2019-04-23 17:43:32+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:43:31 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:05+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:05 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 17:48:06+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 17:48:06+0000 [-] None
+2019-04-23 17:48:06+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:06 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:15+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:14 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20is%20your%20name%20guys HTTP/1.0" 200 185 "-" "okhttp/3.10.0"
+2019-04-23 17:48:15+0000 [-] {'entities': [], 'intent': {'confidence': 0.8989580273628235, 'name': 'spawn_name'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what is your name guys'}
+2019-04-23 17:48:15+0000 [-] None
+2019-04-23 17:48:15+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:14 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:20 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20can%20you%20do%20for%20me HTTP/1.0" 200 185 "-" "okhttp/3.10.0"
+2019-04-23 17:48:21+0000 [-] {'entities': [], 'intent': {'confidence': 0.9245972037315369, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what can you do for me'}
+2019-04-23 17:48:21+0000 [-] None
+2019-04-23 17:48:21+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:20 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:28+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:28 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=who%20is%20Barack%20Obama HTTP/1.0" 200 182 "-" "okhttp/3.10.0"
+2019-04-23 17:48:29+0000 [-] {'entities': [], 'intent': {'confidence': 0.3425353765487671, 'name': 'spawn_name'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'who is Barack Obama'}
+2019-04-23 17:48:29+0000 [-] None
+2019-04-23 17:48:29+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:28 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:31+0000 [-] {'content_urls': {'mobile': {'page': 'https://en.m.wikipedia.org/wiki/Barack_Obama'}}, 'description': '44th president of the United States', 'displaytitle': 'Barack Obama', 'extract': 'Barack Hussein Obama II is an American attorney and politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African American to be elected to the presidency. He previously served as a U.S. senator from Illinois from 2005 to 2008.', 'lang': 'en', 'thumbnail': {'height': '320', 'source': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/256px-President_Barack_Obama.jpg', 'width': '256'}, 'title': 'Barack Obama', 'type': 'standard'}
+2019-04-23 17:48:31+0000 [-] Barack Obama
+2019-04-23 17:48:31+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:30 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:38+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:37 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=can%20you%20tell%20me%20about%20Amit%20Shah HTTP/1.0" 200 194 "-" "okhttp/3.10.0"
+2019-04-23 17:48:38+0000 [-] {'entities': [], 'intent': {'confidence': 0.7053323984146118, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'can you tell me about Amit Shah'}
+2019-04-23 17:48:38+0000 [-] None
+2019-04-23 17:48:38+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:38 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:40+0000 [-] {'content_urls': {'mobile': {'page': 'https://en.m.wikipedia.org/wiki/Amit_Shah'}}, 'description': 'Indian politician', 'displaytitle': 'Amit Shah', 'extract': 'Amit Shah is an Indian politician who is currently serving as President of the Bharatiya Janata Party (BJP) and as a member of the Rajya Sabha.', 'lang': 'en', 'thumbnail': {'height': '320', 'source': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Amit_Shah.Jpg/259px-Amit_Shah.Jpg', 'width': '259'}, 'title': 'Amit Shah', 'type': 'standard'}
+2019-04-23 17:48:40+0000 [-] Amit Shah
+2019-04-23 17:48:40+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:40 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:49+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:48 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=BJP HTTP/1.0" 200 143 "-" "okhttp/3.10.0"
+2019-04-23 17:48:49+0000 [-] {'entities': [], 'intent': {'confidence': 0.0}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'BJP'}
+2019-04-23 17:48:49+0000 [-] None
+2019-04-23 17:48:49+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:49 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:48:53+0000 [-] {'content_urls': {'mobile': {'page': 'https://en.m.wikipedia.org/wiki/Bharatiya_Janata_Party'}}, 'description': 'Major right-wing political party in India', 'displaytitle': 'Bharatiya Janata Party', 'extract': "The Bharatiya Janata Party is one of the two major political parties in India, along with the Indian National Congress. As of 2018, it is the country's largest political party in terms of representation in the national parliament and state assemblies, and it is the world's largest party in terms of primary membership. BJP is a right-wing party, and its policy has historically reflected Hindu nationalist positions. It has close ideological and organisational links to the Rashtriya Swayamsevak Sangh (RSS).", 'lang': 'en', 'thumbnail': {'height': '320', 'source': 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Bharatiya_Janata_Party_logo.svg/310px-Bharatiya_Janata_Party_logo.svg.png', 'width': '310'}, 'title': 'Bharatiya Janata Party', 'type': 'standard'}
+2019-04-23 17:48:53+0000 [-] Bharatiya Janata Party
+2019-04-23 17:48:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:48:53 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:49:09+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:08 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=fantastic HTTP/1.0" 200 177 "-" "okhttp/3.10.0"
+2019-04-23 17:49:10+0000 [-] {'entities': [], 'intent': {'confidence': 0.7340192198753357, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'fantastic'}
+2019-04-23 17:49:10+0000 [-] None
+2019-04-23 17:49:10+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:10 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:49:24+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:23 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:49:24+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:49:24+0000 [-] None
+2019-04-23 17:49:24+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:24 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:49:41+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:41 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:49:42+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:49:42+0000 [-] None
+2019-04-23 17:49:42+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:41 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:49:53+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:52 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:49:54+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:49:54+0000 [-] None
+2019-04-23 17:49:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:49:53 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:50:05+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:04 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:50:06+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:50:06+0000 [-] None
+2019-04-23 17:50:06+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:05 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:50:22+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:21 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:50:23+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:50:23+0000 [-] None
+2019-04-23 17:50:23+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:22 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:50:31+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:31 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:50:32+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:50:32+0000 [-] None
+2019-04-23 17:50:32+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:50:31 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:07+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:07 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=how%20can%20you%20help%20me HTTP/1.0" 200 182 "-" "okhttp/3.10.0"
+2019-04-23 17:51:08+0000 [-] {'entities': [], 'intent': {'confidence': 0.9247263669967651, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'how can you help me'}
+2019-04-23 17:51:08+0000 [-] None
+2019-04-23 17:51:08+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:07 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:20+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:20 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=have%20a%20great%20day HTTP/1.0" 200 184 "-" "okhttp/3.10.0"
+2019-04-23 17:51:21+0000 [-] {'entities': [], 'intent': {'confidence': 0.7635027766227722, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'have a great day'}
+2019-04-23 17:51:21+0000 [-] None
+2019-04-23 17:51:21+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:20 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:28+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:27 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=have%20a%20great%20day HTTP/1.0" 200 184 "-" "okhttp/3.10.0"
+2019-04-23 17:51:28+0000 [-] {'entities': [], 'intent': {'confidence': 0.7635027766227722, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'have a great day'}
+2019-04-23 17:51:28+0000 [-] None
+2019-04-23 17:51:28+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:27 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:39+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:38 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=have%20a%20great%20day HTTP/1.0" 200 184 "-" "okhttp/3.10.0"
+2019-04-23 17:51:39+0000 [-] {'entities': [], 'intent': {'confidence': 0.7635027766227722, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'have a great day'}
+2019-04-23 17:51:39+0000 [-] None
+2019-04-23 17:51:39+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:39 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:45+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:44 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=fantastic HTTP/1.0" 200 177 "-" "okhttp/3.10.0"
+2019-04-23 17:51:45+0000 [-] {'entities': [], 'intent': {'confidence': 0.7340192198753357, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'fantastic'}
+2019-04-23 17:51:45+0000 [-] None
+2019-04-23 17:51:45+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:44 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:50+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:49 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:51:51+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:51:51+0000 [-] None
+2019-04-23 17:51:51+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:50 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:51:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:55 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:51:56+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:51:56+0000 [-] None
+2019-04-23 17:51:56+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:51:55 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:52:01+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:52:00 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:52:01+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:52:01+0000 [-] None
+2019-04-23 17:52:01+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:52:00 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:52:06+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:52:05 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:52:07+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:52:07+0000 [-] None
+2019-04-23 17:52:07+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:52:06 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:57:46+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:57:45 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=thank%20you HTTP/1.0" 200 170 "-" "okhttp/3.10.0"
+2019-04-23 17:57:46+0000 [-] {'entities': [], 'intent': {'confidence': 0.7360106706619263, 'name': 'bot_love'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'thank you'}
+2019-04-23 17:57:46+0000 [-] None
+2019-04-23 17:57:46+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:57:46 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:58:07+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:06 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing%20and%20what%20are%20you%20doing%20in%20is%20there%20anything%20that%20I%20can%20help%20you%20with HTTP/1.0" 200 250 "-" "okhttp/3.10.0"
+2019-04-23 17:58:07+0000 [-] {'entities': [], 'intent': {'confidence': 0.6649202704429626, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing and what are you doing in is there anything that I can help you with'}
+2019-04-23 17:58:07+0000 [-] None
+2019-04-23 17:58:07+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:07 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:58:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:44 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 17:58:44+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 17:58:44+0000 [-] None
+2019-04-23 17:58:44+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:44 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 17:58:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:53 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=OK%20great HTTP/1.0" 200 176 "-" "okhttp/3.10.0"
+2019-04-23 17:58:54+0000 [-] {'entities': [], 'intent': {'confidence': 0.7264518141746521, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'OK great'}
+2019-04-23 17:58:54+0000 [-] None
+2019-04-23 17:58:54+0000 [-] 142.93.214.249 - - [23/Apr/2019:17:58:54 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 18:00:08+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:07 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 18:00:09+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 18:00:09+0000 [-] None
+2019-04-23 18:00:09+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:08 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 18:00:17+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:17 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 18:00:18+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 18:00:18+0000 [-] None
+2019-04-23 18:00:18+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:17 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 18:00:27+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:27 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20are%20you%20doing HTTP/1.0" 200 174 "-" "okhttp/3.10.0"
+2019-04-23 18:00:27+0000 [-] {'entities': [], 'intent': {'confidence': 0.66501384973526, 'name': 'greet'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what are you doing'}
+2019-04-23 18:00:27+0000 [-] None
+2019-04-23 18:00:27+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:27 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 18:00:36+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:35 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=what%20can%20you%20do%20for%20me HTTP/1.0" 200 185 "-" "okhttp/3.10.0"
+2019-04-23 18:00:36+0000 [-] {'entities': [], 'intent': {'confidence': 0.9245972037315369, 'name': 'bot_skills'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'what can you do for me'}
+2019-04-23 18:00:36+0000 [-] None
+2019-04-23 18:00:36+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:35 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"
+2019-04-23 18:00:46+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:45 +0000] "GET /api/classify?model=spawn&project=spawn_wiki&q=fantastic HTTP/1.0" 200 177 "-" "okhttp/3.10.0"
+2019-04-23 18:00:46+0000 [-] {'entities': [], 'intent': {'confidence': 0.7340192198753357, 'name': 'bot_greet_reply'}, 'model': 'spawn', 'project': 'spawn_wiki', 'text': 'fantastic'}
+2019-04-23 18:00:46+0000 [-] None
+2019-04-23 18:00:46+0000 [-] 142.93.214.249 - - [23/Apr/2019:18:00:46 +0000] "POST /post_wiki HTTP/1.0" 200 36 "-" "okhttp/3.10.0"

@@ -1,0 +1,314 @@
+[
+    {
+        "text": "morning",
+        "intent": "good morning spawn",
+        "intent_prediction": {
+            "name": "morning",
+            "confidence": 0.910980761051178
+        }
+    },
+    {
+        "text": "morning",
+        "intent": "great morning spawn",
+        "intent_prediction": {
+            "name": "morning",
+            "confidence": 0.910980761051178
+        }
+    },
+    {
+        "text": "morning",
+        "intent": "good morning",
+        "intent_prediction": {
+            "name": "morning",
+            "confidence": 0.910980761051178
+        }
+    },
+    {
+        "text": "afernoon",
+        "intent": "hey spawn good afternoon",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "afernoon",
+        "intent": "good afternoon",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "afernoon",
+        "intent": "good afternoon spawn",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "afernoon",
+        "intent": "great morning",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "afernoon",
+        "intent": "hey good afternoon",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_love",
+        "intent": "i love you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_love",
+        "intent": "love you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_love",
+        "intent": "hey spawn i love you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_love",
+        "intent": "i like you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "i am doing great",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "great",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "good",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "i am doing good",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "i am doing fine",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_greet_reply",
+        "intent": "i am fantastic",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "bye bye",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "bye-bye",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "goodbye",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "good bye",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "see you later",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "talk to you later",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_bye",
+        "intent": "catch you later",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "send me a quote",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "todays quote",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "today's quote",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "tell me a quote",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "motivation quotes",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "bot_quotes",
+        "intent": "inspirational quote",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "spawn_name",
+        "intent": "what is your name",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "spawn_name",
+        "intent": "your identity",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "spawn_name",
+        "intent": "your name",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "spawn_name",
+        "intent": "what's your name",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "greet",
+        "intent": "how are you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "greet",
+        "intent": "hey how are you",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "greet",
+        "intent": "are you doing ok",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    },
+    {
+        "text": "greet",
+        "intent": "are you ok",
+        "intent_prediction": {
+            "name": "",
+            "confidence": 0.0
+        }
+    }
+]
