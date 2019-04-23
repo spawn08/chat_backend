@@ -6,7 +6,7 @@ from klein import Klein
 from twisted.internet import reactor, threads
 from twisted.internet.defer import inlineCallbacks, returnValue
 import sys
-sys.path.append('C:/Users/Amar/Desktop/rasa_nlu-master/')
+sys.path.append('/opt/chat_backend/')
 
 from spawn_ai import config, utils
 from spawn_ai.config import RasaNLUModelConfig
@@ -17,9 +17,12 @@ from spawn_ai.model import MINIMUM_COMPATIBLE_VERSION
 from spawn_ai.train import TrainingException
 from spawn_ai.utils import json_to_string, read_endpoints
 from spawn_ai.version import __version__
+from elasticsearch import Elasticsearch
+import json
+from time import gmtime, strftime
 
+es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 logger = logging.getLogger(__name__)
-
 
 
 def create_argument_parser():
@@ -221,7 +224,7 @@ class RasaNLU(object):
         """Main Rasa route to check if the server is online"""
         return "hello from Spawn AI: " + __version__
 
-    @app.route("/parse", methods=['GET', 'POST', 'OPTIONS'])
+    @app.route("/api/classify", methods=['GET', 'POST', 'OPTIONS'])
     @requires_auth
     @check_cors
     @inlineCallbacks
@@ -325,7 +328,7 @@ class RasaNLU(object):
         else:
             return content_type[0]
 
-    @app.route("/train", methods=['POST', 'OPTIONS'])
+    @app.route("/api/train", methods=['POST', 'OPTIONS'])
     @requires_auth
     @check_cors
     @inlineCallbacks
@@ -409,6 +412,23 @@ class RasaNLU(object):
             request.setResponseCode(500)
             logger.exception(e)
             return simplejson.dumps({"error": "{}".format(e)})
+
+    @app.route("/post_wiki", methods=['POST'])
+    @check_cors
+    def test(self,request):
+        body = json.loads(request.content.read())
+        print(body)
+        body['timestamp']= strftime("%Y-%m-%dT%H:%M:%SZ", gmtime())
+        title = body.get('title')
+        print(title)
+        resp = {}
+        if body is not None and title is not None:
+            es.index('spawnai', doc_type='doc', id=body.get('title'), body=body)
+            es.index('spawnai',doc_type='wiki', body = body)
+            return simplejson.dumps({'msg': 'success', 'status': 'true'})
+        else:
+            return simplejson.dumps({'msg': 'query cannot be empty', 'status': 'false'})
+        return simplejson.dumps({'msg': 'Error processing request', 'status': 'false'})
 
 
 if __name__ == '__main__':
