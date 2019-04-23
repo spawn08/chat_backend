@@ -14,6 +14,18 @@
         "text": "help me",
         "intent": "bot_skills",
         "entities": []
+      },{
+        "text": "what skills do you have",
+        "intent": "bot_skills",
+        "entities": []
+      },{
+        "text": "what things you can do",
+        "intent": "bot_skills",
+        "entities": []
+      },{
+        "text": "what are your skills",
+        "intent": "bot_skills",
+        "entities": []
       }, {
         "text": "what do you know",
         "intent": "bot_skills",
@@ -63,160 +75,164 @@
         "intent": "morning",
         "entities": []
       }, {
-        "text": "morning",
-        "intent": "good morning spawn",
+        "intent": "morning",
+        "text": "good morning spawn",
+        "entities": []
+      },{
+        "intent": "morning",
+        "text": "great morning",
         "entities": []
       }, {
-        "text": "morning",
-        "intent": "great morning spawn",
+        "intent": "morning",
+        "text": "great morning spawn",
         "entities": []
       }, {
-        "text": "morning",
-        "intent": "good morning",
+        "intent": "morning",
+        "text": "good morning",
         "entities": []
       }, {
-        "text": "afernoon",
-        "intent": "hey spawn good afternoon",
+        "intent": "afernoon",
+        "text": "hey spawn good afternoon",
         "entities": []
       }, {
-        "text": "afernoon",
-        "intent": "good afternoon",
+        "intent": "afernoon",
+        "text": "good afternoon",
         "entities": []
       }, {
-        "text": "afernoon",
-        "intent": "good afternoon spawn",
+        "intent": "afernoon",
+        "text": "good afternoon spawn",
         "entities": []
       }, {
-        "text": "afernoon",
-        "intent": "great morning",
+        "intent": "afernoon",
+        "text": "great morning",
         "entities": []
       }, {
-        "text": "afernoon",
-        "intent": "hey good afternoon",
+        "intent": "afernoon",
+        "text": "hey good afternoon",
         "entities": []
       }, {
-        "text": "bot_love",
-        "intent": "i love you",
+        "intent": "bot_love",
+        "text": "i love you",
         "entities": []
       }, {
-        "text": "bot_love",
-        "intent": "love you",
+        "intent": "bot_love",
+        "text": "love you",
         "entities": []
       }, {
-        "text": "bot_love",
-        "intent": "hey spawn i love you",
+        "intent": "bot_love",
+        "text": "hey spawn i love you",
         "entities": []
       }, {
-        "text": "bot_love",
-        "intent": "i like you",
+        "intent": "bot_love",
+        "text": "i like you",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "i am doing great",
+        "intent": "bot_greet_reply",
+        "text": "i am doing great",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "great",
+        "intent": "bot_greet_reply",
+        "text": "great",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "good",
+        "intent": "bot_greet_reply",
+        "text": "good",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "i am doing good",
+        "intent": "bot_greet_reply",
+        "text": "i am doing good",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "i am doing fine",
+        "intent": "bot_greet_reply",
+        "text": "i am doing fine",
         "entities": []
       }, {
-        "text": "bot_greet_reply",
-        "intent": "i am fantastic",
+        "intent": "bot_greet_reply",
+        "text": "i am fantastic",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "bye bye",
+        "intent": "bot_bye",
+        "text": "bye bye",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "bye-bye",
+        "intent": "bot_bye",
+        "text": "bye-bye",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "goodbye",
+        "intent": "bot_bye",
+        "text": "goodbye",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "good bye",
+        "intent": "bot_bye",
+        "text": "good bye",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "see you later",
+        "intent": "bot_bye",
+        "text": "see you later",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "talk to you later",
+        "intent": "bot_bye",
+        "text": "talk to you later",
         "entities": []
       }, {
-        "text": "bot_bye",
-        "intent": "catch you later",
+        "intent": "bot_bye",
+        "text": "catch you later",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "send me a quote",
+        "intent": "bot_quotes",
+        "text": "send me a quote",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "todays quote",
+        "intent": "bot_quotes",
+        "text": "todays quote",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "today's quote",
+        "intent": "bot_quotes",
+        "text": "today's quote",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "tell me a quote",
+        "intent": "bot_quotes",
+        "text": "tell me a quote",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "motivation quotes",
+        "intent": "bot_quotes",
+        "text": "motivation quotes",
         "entities": []
       }, {
-        "text": "bot_quotes",
-        "intent": "inspirational quote",
+        "intent": "bot_quotes",
+        "text": "inspirational quote",
         "entities": []
       }, {
-        "text": "spawn_name",
-        "intent": "what is your name",
+        "intent": "spawn_name",
+        "text": "what is your name",
         "entities": []
       }, {
-        "text": "spawn_name",
-        "intent": "your identity",
+        "intent": "spawn_name",
+        "text": "your identity",
         "entities": []
       }, {
-        "text": "spawn_name",
-        "intent": "your name",
+        "intent": "spawn_name",
+        "text": "your name",
         "entities": []
       }, {
-        "text": "spawn_name",
-        "intent": "what's your name",
+        "intent": "spawn_name",
+        "text": "what's your name",
         "entities": []
       }, {
-        "text": "greet",
-        "intent": "how are you",
+        "intent": "greet",
+        "text": "how are you",
         "entities": []
       }, {
-        "text": "greet",
-        "intent": "hey how are you",
+        "intent": "greet",
+        "text": "hey how are you",
         "entities": []
       }, {
-        "text": "greet",
-        "intent": "are you doing ok",
+        "intent": "greet",
+        "text": "are you doing ok",
         "entities": []
       }, {
-        "text": "greet",
-        "intent": "are you ok",
+        "intent": "greet",
+        "text": "are you ok",
         "entities": []
       }
     ]
