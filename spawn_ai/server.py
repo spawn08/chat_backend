@@ -66,7 +66,7 @@ def create_argument_parser():
 
     parser.add_argument('--max_training_processes',
                         type=int,
-                        default=10,
+                        default=2,
                         help='Number of processes used to handle training '
                              'requests. Increasing this value will have a '
                              'great impact on memory usage. It is '
@@ -428,7 +428,7 @@ class RasaNLU(object):
             es.index('spawnai',doc_type='wiki', body = body)
             return simplejson.dumps({'msg': 'success', 'status': 'true'})
         elif intent is not None:
-            es.index('spawnai',doc_type='intent', body = body)
+            es.index('spawnai_intent',doc_type='intent', body = body)
             return simplejson.dumps({'msg': 'success', 'status': 'true'}) 
         else:
             return simplejson.dumps({'msg': 'query cannot be empty', 'status': 'false'})

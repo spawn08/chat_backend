@@ -64,11 +64,11 @@ class EmbeddingIntentClassifier(Component):
         # linearly increased for each epoch
         "batch_size": [64, 256],
         # number of epochs
-        "epochs": 70,
+        "epochs": 65,
 
         # embedding parameters
         # dimension size of embedding vectors
-        "embed_dim": 50,
+        "embed_dim": 40,
         # how similar the algorithm should try
         # to make embedding vectors for correct intent labels
         "mu_pos": 0.8,  # should be 0.0 < ... < 1.0 for 'cosine'
